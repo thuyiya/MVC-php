@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 
 class App
 {
@@ -11,13 +11,13 @@ class App
 
 	public function __construct()
 	{
-		$this->parse_url();
+		$this->parseUrl();
 	}
 
 	public function parseUrl()
 	{
-		if(isset($GET['='])){
-			echo $_GET[url];
+		if(isset($_GET['url'])){
+			echo $_GET['url'];
 		}
 	}
 }
