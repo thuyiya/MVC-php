@@ -9,8 +9,9 @@ class App
 
 	protected $parmas = [];
 
-	public function __construct(){
-
+	public function __construct()
+	{
+		$this->parse_url();
 	}
 
 	public function parseUrl()
