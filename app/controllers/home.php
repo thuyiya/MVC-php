@@ -2,7 +2,7 @@
 
 class Home extends Controller
 {
-	public funtion index()
+	public function index()
 	{
 		echo 'home/index';
 	}
